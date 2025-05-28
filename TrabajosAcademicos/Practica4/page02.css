@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para el Control de Volumen */
+.window-container {
+    width: 600px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.window-header {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    fill: #aaa;
+    transition: fill 0.2s;
+}
+
+.header-icon:hover {
+    fill: #fff;
+}
+
+.window-content {
+    padding: 20px;
+}
+
+.control-group {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.control-group label {
+    width: 120px;
+    margin-right: 10px;
+    color: #eee;
+}
+
+.slider-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #aaa;
+}
+
+input[type="range"] {
+    width: 100%;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #444;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Estilos para la Card de Color */
+.card-color {
+    width: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #1c1c1c;
+    padding: 20px;
+}
+
+.muestra-color {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(80, 165, 92);
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.controles-color {
+    margin-top: 20px;
+}
+
+.fila-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fila-control label {
+    width: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.fila-control input[type="range"] {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.fila-control input[type="number"] {
+    width: 70px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+
+/* Colores específicos para los sliders RGB */
+#r::-webkit-slider-thumb {
+    background-color: #ff5555;
+}
+
+#g::-webkit-slider-thumb {
+    background-color: #55ff55;
+}
+
+#b::-webkit-slider-thumb {
+    background-color: #5555ff;
+}
