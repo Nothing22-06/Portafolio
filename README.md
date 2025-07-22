@@ -1,51 +1,36 @@
-# 📘 Portafolio Académico
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Introducción
+## Getting Started
 
-Este portafolio académico documenta mi progreso y aprendizaje a lo largo del curso de *Desarrollo de Aplicaciones Web*. A continuación, se presenta un resumen de los temas abordados, los objetivos de cada semana y una reflexión personal sobre los conocimientos adquiridos.
+First, run the development server:
 
-> *Institución:* Universidad Nacional del Centro del Perú  
-> *Programa de Estudios:* Ingeniería de Sistemas  
-> *Asignatura:* Desarrollo de Aplicaciones Web  
-> *Docente:* Jaime Suasnábar Terrel  
-> *Alumno:* Huamani Alvarez Deivi Beckan  
-> *Semestre:* IX  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📅 Tabla de Temas y Objetivos
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-| *Semana* | *Tema*                                                 | *Objetivo*                                                                                                         |
-|------------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| 1          | Fundamentos de tecnologías web y herramientas iniciales  | Conocer el funcionamiento básico de la web, herramientas y roles en el desarrollo web.                             |
-| 2          | HTML5, XML y CSS3                                        | Construir páginas con HTML y CSS, aplicando conceptos de SEO y diseño responsivo.                                   |
-| 3          | Librerías CSS: Bootstrap y Tailwind                      | Utilizar librerías CSS para crear componentes visuales avanzados en el frontend.                                    |
-| 4          | JavaScript y manejo del DOM                              | Aplicar JavaScript y Canvas para agregar lógica e interactividad a páginas web.                                     |
-| 5          | Framework JS: Estructura y Props                         | Introducirse al desarrollo con frameworks JS, estructurando componentes y utilizando props y estilos.               |
-| 6          | Eventos, Condicionales, Routing y Consumo de APIs        | Manejar eventos y consumir datos de APIs utilizando promesas y renderizado condicional.                             |
-| 7          | Uso de Hooks en Framework JS                             | Aplicar hooks como useState, useEffect y useContext para gestionar estados y efectos en componentes React.          |
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## ✨ Reflexiones
+To learn more about Next.js, take a look at the following resources:
 
-### Semana 1: Fundamentos de Tecnologías Web  
-Aprendí los conceptos fundamentales de la web, los distintos tipos de soluciones web (página, sitio, sistema) y el rol de cada desarrollador (frontend, backend y fullstack). También exploré Visual Studio Code, sus atajos, extensiones y cómo configurar mi entorno de trabajo.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Semana 2: HTML5, XML y CSS3  
-Construí estructuras web usando HTML5 y XML, comprendí cómo funciona el DOM y cómo los motores de búsqueda analizan nuestras páginas. Además, diseñé layouts responsivos aplicando CSS3 con flexbox y grid.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Semana 3: Librerías CSS  
-Implementé mis primeros sitios usando *Bootstrap* y *Tailwind CSS*, entendiendo cómo reutilizar componentes y aplicar clases para lograr estilos avanzados. Usar estas librerías me facilitó el diseño profesional y organizado.
+## Deploy on Vercel
 
-### Semana 4: JavaScript y DOM  
-Profundicé en JavaScript y su aplicación práctica en el frontend. Usé funciones flecha, closures y animaciones con canvas. Manipulé el DOM para cambiar dinámicamente el contenido de las páginas web.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Semana 5: Framework JS y Props  
-Exploré los fundamentos de un framework JS (React). Comprendí el enfoque basado en componentes y cómo pasar información entre ellos mediante *props* y *children*, utilizando también distintas estrategias para aplicar estilos.
-
-### Semana 6: Eventos y Consumo de APIs  
-Implementé formularios, escuché eventos, utilicé condicionales y bucles en componentes, y consumí datos de APIs usando fetch y axios, mejorando la interactividad y conectividad de mis páginas.
-
-### Semana 7: Hooks en React  
-Aprendí a utilizar hooks fundamentales como useState, useEffect y useContext, los cuales permiten manejar estados, efectos secundarios y contexto global en aplicaciones React. Esto marcó una diferencia clave en la manera de desarrollar componentes más dinámicos.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
